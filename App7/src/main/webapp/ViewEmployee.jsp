@@ -22,14 +22,12 @@
 						EmpBean eb = i.next();
 						out.println(eb.getEmpId()+" "+eb.getEmpFname()+" "+eb.getEmpLname()+" "+eb.getEmpSal()+" "+eb.getGetAddr()+"<br><br>");
 					}
-					
-					
 				}
-			
 			%>
 				<h1>
 					<jsp.include page="index.html"/>
 				</h1>
 		</h1>
+	</center>
 </body>
 </html>
