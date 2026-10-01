@@ -27,8 +27,9 @@
 				}
 			
 			%>
+			<h1>
+				<jsp.include page="index.html"/>
 			</h1>
-			<jsp.include page="index.html"/>;
 		</h1>
 </body>
 </html>
