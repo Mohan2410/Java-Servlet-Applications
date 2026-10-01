@@ -25,7 +25,7 @@
 				}
 			%>
 				<h1>
-					<jsp.include page="index.html"/>
+					<jsp:include page="index.html"/>
 				</h1>
 		</h1>
 	</center>
