@@ -6,3 +6,9 @@ public interface DBInfo {
 	String dbuname = "system";
 	String dbpwd = "System123";
 }
+
+
+
+
+
+

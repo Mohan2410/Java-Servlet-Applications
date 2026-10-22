@@ -14,7 +14,7 @@
 				String fname = (String)request.getAttribute("fname");
 				UserBean ub = (UserBean)application.getAttribute("ubean");
 				
-				out.println("<u>Edit Progile</u>"+"<br><br>");
+				out.println("<u>Edit Profile</u>"+"<br><br>");
 			%>
 			<form action="update" method="post">
 				FirstName: <input type="text" name=ufname value="<%= ub.getFname() %>"><br><br>
@@ -24,6 +24,6 @@
 				<input type="submit" value="Update">
 			</form>
 		</h1>
-	</center>
+	</center> 	
 </body>
 </html>
